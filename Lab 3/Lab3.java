@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Lab3{
@@ -37,7 +38,7 @@ public class Lab3{
                 System.out.println("Invalid Choice");
 
         }
-        scanner.close();       
+              
     }
 
     public static double CalculateMean(int[] array) {
@@ -50,7 +51,7 @@ public class Lab3{
     }
 
     public static double CalculateMedian(int[] array) {
-        Array.sort(array);
+        Arrays.sort(array);
         int middle = array.length / 2;
         if (array.length % 2 == 0) {
             double median = (double) (array[middle - 1] + array[middle]) / 2;
