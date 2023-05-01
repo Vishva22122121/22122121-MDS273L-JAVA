@@ -38,6 +38,11 @@ public class Lab1 {
             case "Bihar":
                 System.out.println("Region:East");
                 break;
+            case "Assam":
+                System.out.println("Region:East");
+                break;
+            default: 
+                System.out.println("INVALID STATE");
         }
     }
 }
